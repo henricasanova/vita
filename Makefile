@@ -1,5 +1,5 @@
 all: vita.pdf 
-	/bin/cp ./vita.pdf $(HOME)/MYWEBPAGE/henricasanova.github.io/files/
+	/bin/cp ./vita.pdf $(HOME)/PERSONAL/MYWEBPAGE/henricasanova.github.io/files/
 
 vita.ps: vita.dvi
 	dvips vita.dvi -o vita.ps
